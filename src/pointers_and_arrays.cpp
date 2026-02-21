@@ -85,7 +85,7 @@ void pointersAndArrays() {
 	int *pValue = &value;
     // TODO: Print the value of 'value' by dereferencing 'pValue'
     // Expected output: "Dereferenced value: 42"
-
+	std::cout << "Dereferenced value: " << *pValue << '\n';
     // TODO: Change 'value' through the pointer by assigning 99 to *pValue
     //
     // ! DISCUSSION: How does *pValue = 99 change 'value'?
