@@ -32,7 +32,7 @@ void pointersAsArrays() {
 	std::cout << "Pointer access: ptr[0] = " << ptr[0] << '\n';
     // TODO: Print ptr[2] to access the third element through the pointer
     // Expected output: "Pointer access: ptr[2] = 300"
-
+	std::cout << "Pointer access: ptr[2] = " << ptr[2] << '\n';
     // TODO: Print ptr[4] to access the last element through the pointer
     // Expected output: "Pointer access: ptr[4] = 500"
     //

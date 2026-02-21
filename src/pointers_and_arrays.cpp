@@ -51,10 +51,10 @@ void pointersAndArrays() {
 
     // TODO: Print the address of numbers[0] using the address-of operator (&)
     // Expected output: "Address of numbers[0]: <some address>"
-
+	std::cout << "Address of numbers[0]: " << &numbers[0] << '\n';
     // TODO: Print the address of numbers[1] using the address-of operator (&)
     // Expected output: "Address of numbers[1]: <some address>"
-	std::cout << "Address of numbers[0]: " << &numbers[0] << '\n';
+	std::cout << "Address of numbers[1]: " << &numbers[1] << '\n';
     // TODO: Print the difference in bytes between &numbers[1] and &numbers[0]
     //       Hint: cast the addresses to (char*) before subtracting to get bytes
     // Expected output: "Bytes between elements: 4"
@@ -120,7 +120,9 @@ void pointersAndArrays() {
 	std::cout << "start + 1 points to: " << *(start + 1) << '\n';
     // TODO: Use pointer arithmetic (start + 3) to print the fourth element
     // Expected output: "start + 3 points to: 40"
-
+    for (int i = 0; i < size; ++i) {
+        std::cout << "start + " << i << " points to: " << *(start + i) << '\n';
+	}
     // TODO: Create a pointer 'end' that points to the last element using pointer arithmetic
     //
     // ! DISCUSSION: Why size - 1 and not just size?
